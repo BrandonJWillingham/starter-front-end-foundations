@@ -20,12 +20,21 @@ h3 {
   border-bottom: 1px solid lightgray;
 }
 
+main img {
+  width: 100%;
+}
+
+.group2 img{
+  max-height: 100px;
+}
 /* Groups & Items */
 
 .group {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .item {
   flex: 1;
